@@ -14,7 +14,7 @@ public class CorsConfig implements WebMvcConfigurer{
     public void addCorsMappings(CorsRegistry registry) {
         // Allow all origins and methods for Swagger UI
         registry.addMapping("/swagger-ui.html")
-                .allowedOrigins("*")
+                .allowedOriginPatterns("https://*.up.railway.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowCredentials(true); // Allow credentials (e.g., cookies)
     }
