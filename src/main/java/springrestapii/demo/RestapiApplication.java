@@ -9,10 +9,8 @@ import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("classpath:env.properties")
 @OpenAPIDefinition(info = @Info(
 		title = "Spring Boot RestAPI.",
 		description = "Developed using Spring Mvc, Jpa, Mysql connector and 3rd party libraries such as Lombok, MapStruct, Spring-validation, SpringBoot actuator & SpringDoc openAPI.",
