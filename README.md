@@ -11,3 +11,5 @@
 #### Spring Boot Actuator to demonstrate api endpoints
 #### Spring Boot Validation library to validate fields before sending request to server.
 #### Lombok library to generate getter, setter and constructor automatically.
+
+### NOTE : Swagger UI is currently not sending request, it can be only used to see the api documentation.
